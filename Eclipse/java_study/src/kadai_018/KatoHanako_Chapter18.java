@@ -2,9 +2,9 @@ package kadai_018;
 
 public class KatoHanako_Chapter18 extends Kato_Chapter18 {
 
-    public KatoHanako_Chapter18() {
-        super("花子"); // 親クラスのコンストラクタを呼び出す
-    }
+	public void setGivenName() {
+		this.givenName = "花子";
+	}
 
     @Override
     //抽象メソッドに具体的な処理を記述	する
